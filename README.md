@@ -53,10 +53,11 @@ Go to file
 
 3. **Access the App**:
     - Open a browser and go to `sdg24.com`.
-    - Login with `username = administrator` and `password = admin`.
-    - Click on the profile icon (top right), then select "Switch to Desk".
-    
+   
      ![image](Image/frappe_homepage.jpg)
+ - Login with `username = administrator` and `password = admin`.
+ - Click on the profile icon (top right), then select "Switch to Desk".
+ ![image](Image/frappe_homepage_1.jpg)    
 
 #### Creating Doctypes
 
