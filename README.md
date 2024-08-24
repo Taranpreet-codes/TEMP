@@ -1,36 +1,36 @@
-### Live Report: Setting Up a Library Management System
+### Tutorial:Setting Up a Library Management System
 
-**Name**: Anmolpreet Singh  
-**Username**: SAnmolpreet  
+**Prepared by**:Taranpreet Kaur & Kusum  
+  
 
 #### Setting Up Domain and Basic Configurations
 
 1. **Create and Start Site**:
     ```bash
-    fm create anmol.com
-    fm start anmol.com
+    fm create sdg24.com
+    fm start sdg24.com
     ```
 
 2. **Edit Hosts File**:
     ```bash
     su
     Password:
-    root@debian:/home/anmol# nano /etc/hosts
+    root@debian:~# nano /etc/hosts
     ```
     Add the following lines:
     ```plaintext
     127.0.0.1    localhost
-    127.0.0.1    anmol.com
+    127.0.0.1    sdg24.com
     ```
     Exit root:
     ```bash
-    root@debian:/home/anmol# exit
+    root@debian:~# exit
     ```
 
 3. **Enter Frappe Shell**:
     ```bash
     cd frappe
-    anmol@debian:~/frappe$ fm shell anmol.com
+    taranpreet@debian:~/frappe$ fm shell sdg24.com
     ```
 
 #### Creating and Installing the App
@@ -46,7 +46,7 @@
     ```
 
 3. **Access the App**:
-    - Open a browser and go to `anmol.com`.
+    - Open a browser and go to `sdg24.com`.
     - Login with `username = administrator` and `password = admin`.
     - Click on the profile icon (top right), then select "Switch to Desk".
 
