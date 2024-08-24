@@ -14,6 +14,12 @@
 2. **Edit Hosts File**:
     ```bash
     su
+Taranpreet-codes/TEMP
+￼
+ main
+￼
+Go to file
+
     Password:
     root@debian:~# nano /etc/hosts
     ```
@@ -50,7 +56,7 @@
     - Login with `username = administrator` and `password = admin`.
     - Click on the profile icon (top right), then select "Switch to Desk".
     
-     ![image](frappe homepage.jpg)
+     ![image](Image/frappe_homepage.jpg)
 
 #### Creating Doctypes
 
