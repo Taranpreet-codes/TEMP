@@ -164,6 +164,7 @@ taranpreet@debian fm shell sdg24.com
 
 ## add code
 
+```
 import frappe
 from frappe.model.document import Document
 from frappe.model.docstatus import DocStatus
@@ -183,8 +184,7 @@ class LibraryMembership(Document):
         )
         if exists:
             frappe.throw("There is an active membership for this member")
-
-
+       ```
 
 
 
@@ -199,6 +199,7 @@ class LibraryMembership(Document):
 
 ## Add the following code
 
+```
 import frappe
 from frappe.model.document import Document
 from frappe.model.docstatus import DocStatus
@@ -256,7 +257,7 @@ class LibraryTransaction(Document):
     	)
     	if not valid_membership:
         	frappe.throw("The member does not have a valid membership")
-
+```
 
 
 
