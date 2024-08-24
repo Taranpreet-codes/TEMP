@@ -49,6 +49,7 @@
     - Open a browser and go to `sdg24.com`.
     - Login with `username = administrator` and `password = admin`.
     - Click on the profile icon (top right), then select "Switch to Desk".
+    - ![image](frappe homepage.jpg)
 
 #### Creating Doctypes
 
